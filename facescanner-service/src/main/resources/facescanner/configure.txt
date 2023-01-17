@@ -1,0 +1,12 @@
+{
+"fDistance":0.45,
+"fSimilarity":70.0,
+"threshold_angle_x_up":20.0,
+"threshold_angle_x_down":-15.0,
+"threshold_angle_y":20.0,
+"threshold_angle_z":30.0,
+"liveness_mode":1,
+"liveness_crop_ratio":0.8,
+"liveness_threshold":80.0,
+"liveness_countnum":3
+}

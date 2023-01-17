@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Face Scanner Demo</title>
+</head>
+<body>
+
+
+<h1>Face Scanner Demo</h1>
+
+This page is for debug.
+
+
+<hr>
+
+
+<h2>get list</h2>
+
+<a href="/face-scanner/people">people list</a>
+
+
+<h2>create</h2>
+
+<form method="post" enctype="multipart/form-data" action="/face-scanner/people.form">
+    name: <input type="text" name="name"/><br>
+    photo: <input type="file" name="photo"/><br>
+    <input type="submit"/>
+</form>
+
+
+<h2>find faces json</h2>
+
+<form method="post" enctype="multipart/form-data" action="/face-scanner/find-faces.form">
+    photo: <input type="file" name="photo"/><br>
+    <input type="submit"/>
+</form>
+
+
+<h2>find faces photo</h2>
+
+<form method="post" enctype="multipart/form-data" action="/face-scanner/find-faces.jpeg">
+    photo: <input type="file" name="photo"/><br>
+    <input type="submit"/>
+</form>
+
+
+</body>
+</html>
